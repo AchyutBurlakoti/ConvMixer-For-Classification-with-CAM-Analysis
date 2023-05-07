@@ -56,7 +56,7 @@ class ImageDataset(Dataset):
     def __getitem__(self, index):
         
         filename = self.data[index]
-        labelstr = filename.split('/')[-1].split('\\')[-2]
+        labelstr = filename.split('/')[-1].split('\\')[-2]  # Code extract the folder name like Uninfected or Parasitized to get the label for the image. It might be different in different environments.
         label = labels_mapping[labelstr]
 
         image = Image.open(filename)
