@@ -3,6 +3,8 @@ First download the dataset from : [https://drive.google.com/file/d/174Ffina6HoFF
 
 Download the pre-trained models from : https://drive.google.com/drive/folders/1QCsXRoqMQQvof1ZzuB0OYyMGvaJ7SghL?usp=sharing then put those models in the models directory inside the root directory.
 
+Please note that label for an image is extracted from the folder's name by parsing the file path as written in dataset.py file. The parsing is done for windows operating system so splitting code might be different for linux, Google Colab or other environments.
+
 To train ConvMixer :- 
 * set MODEL_NAME = 'conv-mix' inside train.py then
 * Run following command at root dir.
