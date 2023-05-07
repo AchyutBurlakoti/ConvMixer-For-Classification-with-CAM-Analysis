@@ -21,7 +21,6 @@ The notebooks contains the testing of the trained models along with the comparsi
 
 ### A typical top-level directory layout
 
-    .
     ├── archive                 
         ├── test
             ├── Parasitized
@@ -35,7 +34,7 @@ The notebooks contains the testing of the trained models along with the comparsi
     ├── train.py    # to train the model                   
     ├── datset.py   # custom dataset class
     ├── utils.py
-    ├──conv-mix-gap-layer-analysis.ipynb      # notebook which shows cam analysis of convmix model
+    ├── conv-mix-gap-layer-analysis.ipynb      # notebook which shows cam analysis of convmix model
     ├── convmix-precision-recall-test.ipynb   # notebook showing precision and recall score
     ├── resnet-gap-layer-analysis.ipynb       # cam analysis of resnet-50 model
     ├── resnet-precision-recall-test.ipynb    # precision and recall analysis of resnet-50 model
