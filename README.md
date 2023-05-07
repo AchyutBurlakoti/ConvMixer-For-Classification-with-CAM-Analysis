@@ -1,7 +1,7 @@
 # ConvMixer-For-Classification-with-CAM-Analysis
 First download the dataset from : [https://drive.google.com/file/d/174Ffina6HoFF731a8DgMJs0Wm5OHQ0-S/view?usp=share_link](https://drive.google.com/file/d/174Ffina6HoFF731a8DgMJs0Wm5OHQ0-S/view?usp=sharing) then unzip the dataset in the root dir.
 
-Download the pre-trained models from : [https://drive.google.com/drive/folders/1QCsXRoqMQQvof1ZzuB0OYyMGvaJ7SghL?usp=sharing](https://drive.google.com/drive/folders/1QCsXRoqMQQvof1ZzuB0OYyMGvaJ7SghL?usp=sharing) then put those models in the models directory inside the root directory.
+Download the pre-trained models from : [[https://drive.google.com/drive/folders/1QCsXRoqMQQvof1ZzuB0OYyMGvaJ7SghL?usp=sharing](https://drive.google.com/drive/folders/1QCsXRoqMQQvof1ZzuB0OYyMGvaJ7SghL?usp=sharing)](https://drive.google.com/file/d/1WnGIRDDz1y5KdDE54Ze5r2CEO5BoAj52/view?usp=sharing, https://drive.google.com/file/d/1nCFh_B6fk-ekLWmeO9xzUvWT968BDX9c/view?usp=sharing) then put those models in the models directory inside the root directory.
 
 Please note that label for an image is extracted from the folder's name by parsing the file path as written in dataset.py file. The parsing is done for windows operating system so splitting code might be different for linux, Google Colab or other environments.
 
