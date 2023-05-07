@@ -10,7 +10,7 @@ import torch.optim as optim
 import numpy as np
 
 DEVICE = 'cuda'
-MODEL_NAME = 'conv-mix'
+MODEL_NAME = 'conv-mix'   # 'conv-mix' for ConvMixer and 'res-net' for ResNet-50
 BATCH_SIZE = 16
 EPOCH = 15
 LEARNING_RATE = 3 * 1e-4
