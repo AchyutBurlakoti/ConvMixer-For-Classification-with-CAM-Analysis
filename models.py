@@ -97,7 +97,7 @@ def get_model(MODEL_NAME='conv-mix'):
 
     if MODEL_NAME == 'conv-mix':
         model = ConvMixer(dim=768, depth=32, kernel_size=7, patch_size=4)
-    elif MODEL_NAME == 'resnet':
+    elif MODEL_NAME == 'res-net':
         model = ResNetFeatureModel(output_layer='avgpool')
 
     return model
